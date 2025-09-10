@@ -89,7 +89,7 @@ const About = () => {
                   metus, sit amet viverra lectus finibus ac. Aenean non felis dapibus, placerat libero auctor, ornare ante. Morbi quis ex eleifend, sodales nulla vitae, scelerisque
                   ante. Nunc id vulputate dui. Suspendisse consectetur rutrum metus nec scelerisque. s
                 </p>
-                <button>SEE MORE</button>
+                <button>SEE MORE Info</button>
               </div>
             </div>
             <div className="col-6">
