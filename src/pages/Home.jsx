@@ -9,7 +9,7 @@ const Home = () => {
   const [cat, setCat] = useState([]);
 
   const fetchData = async () => {
-    const res = await axios.get("https://dummyjson.com/products");
+    const res = await axios.get(`${import.meta.env.VITE_BACKEND_API}/products`);
     if (res.status === 200 && res.data?.products) {
       setData(res.data.products);
       let uniQueCat = [];
